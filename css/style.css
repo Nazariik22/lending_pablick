@@ -139,7 +139,7 @@ main {
 }
 
 .section {
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -321,6 +321,7 @@ main {
   gap: 30px;
 }
 .wrapper_slider .sliders {
+  max-width: 375px;
   display: flex;
   gap: 30px;
 }
@@ -406,6 +407,9 @@ main {
   h2 {
     font-size: 25px;
   }
+  .section1, .section2, .section3, .section5, .section6, .section7 {
+    padding: 0 20px;
+  }
   main {
     margin: 50px 0;
     padding-top: 100px;
@@ -416,9 +420,6 @@ main {
   }
   h3 {
     font-size: 16px;
-  }
-  .section {
-    margin: 0 15px;
   }
   .section1_block h1 {
     font-size: 30px;
