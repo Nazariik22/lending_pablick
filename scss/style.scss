@@ -350,6 +350,10 @@ display: flex;  align-items: center;}
    
 }
 @media all and (max-width:1000px) {
+    .section5{
+        margin-top: 20px;
+    }
+    button{border-radius: 5px;}
     .section1,.section2{      
          justify-content: center;
          img{width: 70%;}
